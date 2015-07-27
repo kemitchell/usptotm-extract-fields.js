@@ -10,48 +10,58 @@ function formatDate(argument) {
     argument.slice(4, 6) + '-' +
     argument.slice(6, 8)) }
 
+function onCaseFile(caseFile, callback) {
+  process.nextTick(function() {
+    var result = {}
+
+    // JSONPath fields
+    Object.keys(fields)
+      .forEach(function(key) {
+        var path = fields[key]
+        result[key] = JSONPath.eval(caseFile, path)[0] || null })
+
+    // International classifications
+    var classifications = find(caseFile.children, function(element) {
+      return element.name === 'classifications' })
+    var internationalClassifications = (
+      classifications
+        .children
+        .filter(function(child) {
+          return child.name === 'classification' })
+        .map(function(child) {
+          return find(child.children, function(child) {
+            return child.name === 'international-code' })
+            .text }) )
+    result.internationalClassifications = internationalClassifications
+
+    // Owners
+    var caseFileOwners = find(caseFile.children, function(element) {
+      return element.name === 'case-file-owners' })
+    var owners = (
+      caseFileOwners
+        .children
+        .filter(function(child) {
+          return child.name === 'case-file-owner' })
+        .map(function(child) {
+          return find(child.children, function(child) {
+            return child.name === 'party-name' })
+            .text }) )
+    result.owners = uniq(owners)
+
+    // Convert YYYYMMDD to ISO-8601
+    ;['filingDate', 'publicationDate', 'registrationDate', 'renewalDate']
+      .forEach(function(dateKey) {
+        var dateString = result[dateKey]
+        if (dateString) {
+          result[dateKey] = formatDate(dateString) } })
+
+    callback(null, result) }) }
+
 function extractFields(input, callback) {
   var parser = new Parser('UTF-8')
+
+  // Parse XML
   var currentNode
-
-  function onCaseFile(caseFile) {
-    process.nextTick(function() {
-      var result = {}
-      Object.keys(fields)
-        .forEach(function(key) {
-          var path = fields[key]
-          result[key] = JSONPath.eval(caseFile, path)[0] || null })
-      var classifications = find(caseFile.children, function(element) {
-        return element.name === 'classifications' })
-      ;['filingDate', 'publicationDate', 'registrationDate', 'renewalDate']
-        .forEach(function(dateKey) {
-          var dateString = result[dateKey]
-          if (dateString) {
-            result[dateKey] = formatDate(dateString) } })
-      var internationalClassifications = (
-        classifications
-          .children
-          .filter(function(child) {
-            return child.name === 'classification' })
-          .map(function(child) {
-            return find(child.children, function(child) {
-              return child.name === 'international-code' })
-              .text }) )
-      result.internationalClassifications = internationalClassifications
-      var caseFileOwners = find(caseFile.children, function(element) {
-        return element.name === 'case-file-owners' })
-      var owners = (
-        caseFileOwners
-          .children
-          .filter(function(child) {
-            return child.name === 'case-file-owner' })
-          .map(function(child) {
-            return find(child.children, function(child) {
-              return child.name === 'party-name' })
-              .text }) )
-      result.owners = uniq(owners)
-      callback(null, result) }) }
-
   parser
     .on('startElement', function(name, attributes) {
       if (name === 'case-file' || currentNode) {
@@ -72,7 +82,7 @@ function extractFields(input, callback) {
         if (currentNode.name === 'case-file') {
           if (currentNode.parent) {
             throw new Error() }
-          onCaseFile(currentNode) }
+          onCaseFile(currentNode, callback) }
         parent = currentNode.parent
         if (parent) {
           delete currentNode.parent
@@ -81,6 +91,8 @@ function extractFields(input, callback) {
           parent.children.push(currentNode)
           parent[currentNode.name] = currentNode }
         currentNode = parent } })
+
+  // Accept strings and streams
   if (typeof input === 'string') {
     parser.parse(input) }
   else {
