@@ -1,7 +1,7 @@
 {
   "name": "usptotm-extract-fields",
   "description": "extract fields from USPTO trademark XML data",
-  "version": "0.0.0",
+  "version": "1.0.0-prerelease-1",
   "bin": "cli",
   "dependencies": {
     "JSONPath": "~0.10.0",
