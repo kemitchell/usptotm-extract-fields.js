@@ -1,0 +1,7 @@
+{ "serialNumber": "$.children[?(@.name==='serial-number')].text",
+  "registrationNumber": "$.children[?(@.name==='registration-number')].text",
+  "filingDate": "$.children[?(@.name==='case-file-header')].children[?(@.name==='filing-date')].text",
+  "markIdentification": "$.children[?(@.name==='case-file-header')].children[?(@.name==='mark-identification')].text",
+  "registrationDate": "$.children[?(@.name==='case-file-header')].children[?(@.name==='registration-date')].text",
+  "publicationDate": "$.children[?(@.name==='case-file-header')].children[?(@.name==='published-for-opposition-date')].text",
+  "renewalDate": "$.children[?(@.name==='case-file-header')].children[?(@.name==='renewal-date')].text" }

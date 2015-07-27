@@ -1,0 +1,22 @@
+{
+  "name": "usptotm-extract-fields",
+  "description": "extract fields from USPTO trademark XML data",
+  "version": "0.0.0",
+  "bin": "cli",
+  "dependencies": {
+    "JSONPath": "~0.10.0",
+    "array-find": "~1.0.0",
+    "array-uniq": "~1.0.2",
+    "camelize": "~1.0.0",
+    "node-expat": "~2.3.8",
+    "stdin-transform-cli": "~1.0.4"
+  },
+  "devDependencies": {
+    "glob": "~5.0.14",
+    "tape": "~4.0.1"
+  },
+  "repository": "kemitchell/usptotm-extract-fields.js",
+  "scripts": {
+    "test": "tape test.js"
+  }
+}

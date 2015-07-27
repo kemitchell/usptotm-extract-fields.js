@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+var transform = require('./')
+require('stdin-transform-cli')(
+  require('./package'),
+  function(input, callback) {
+    transform(input, function(error, object) {
+      if (error) {
+        callback(error) }
+      else {
+        callback(null, JSON.stringify(object)) } }) })()

@@ -1,0 +1,293 @@
+<case-file>
+  <serial-number>71009825</serial-number>
+  <registration-number>0062522</registration-number>
+  <transaction-date>20150716</transaction-date>
+  <case-file-header>
+	<filing-date>19050706</filing-date>
+	<registration-date>19070514</registration-date>
+	<status-code>800</status-code>
+	<status-date>20070505</status-date>
+	<mark-drawing-code>2R17</mark-drawing-code>
+	<domestic-representative-name>Maria A. Scungio, Esq.</domestic-representative-name>
+	<attorney-docket-number>5228-307198</attorney-docket-number>
+	<attorney-name>Maria A. Scungio, Esq.</attorney-name>
+	<principal-register-amended-in>F</principal-register-amended-in>
+	<supplemental-register-amended-in>F</supplemental-register-amended-in>
+	<trademark-in>T</trademark-in>
+	<collective-trademark-in>F</collective-trademark-in>
+	<service-mark-in>F</service-mark-in>
+	<collective-service-mark-in>F</collective-service-mark-in>
+	<collective-membership-mark-in>F</collective-membership-mark-in>
+	<certification-mark-in>F</certification-mark-in>
+	<cancellation-pending-in>F</cancellation-pending-in>
+	<published-concurrent-in>F</published-concurrent-in>
+	<concurrent-use-in>F</concurrent-use-in>
+	<concurrent-use-proceeding-in>F</concurrent-use-proceeding-in>
+	<interference-pending-in>F</interference-pending-in>
+	<opposition-pending-in>F</opposition-pending-in>
+	<section-12c-in>F</section-12c-in>
+	<section-2f-in>F</section-2f-in>
+	<section-2f-in-part-in>F</section-2f-in-part-in>
+	<renewal-filed-in>F</renewal-filed-in>
+	<section-8-filed-in>F</section-8-filed-in>
+	<section-8-partial-accept-in>F</section-8-partial-accept-in>
+	<section-8-accepted-in>T</section-8-accepted-in>
+	<section-15-acknowledged-in>F</section-15-acknowledged-in>
+	<section-15-filed-in>F</section-15-filed-in>
+	<supplemental-register-in>F</supplemental-register-in>
+	<foreign-priority-in>F</foreign-priority-in>
+	<change-registration-in>F</change-registration-in>
+	<intent-to-use-in>F</intent-to-use-in>
+	<intent-to-use-current-in>F</intent-to-use-current-in>
+	<filed-as-use-application-in>T</filed-as-use-application-in>
+	<amended-to-use-application-in>F</amended-to-use-application-in>
+	<use-application-currently-in>T</use-application-currently-in>
+	<amended-to-itu-application-in>F</amended-to-itu-application-in>
+	<filing-basis-filed-as-44d-in>F</filing-basis-filed-as-44d-in>
+	<amended-to-44d-application-in>F</amended-to-44d-application-in>
+	<filing-basis-current-44d-in>F</filing-basis-current-44d-in>
+	<filing-basis-filed-as-44e-in>T</filing-basis-filed-as-44e-in>
+	<filing-basis-current-44e-in>T</filing-basis-current-44e-in>
+	<amended-to-44e-application-in>F</amended-to-44e-application-in>
+	<without-basis-currently-in>F</without-basis-currently-in>
+	<filing-current-no-basis-in>F</filing-current-no-basis-in>
+	<color-drawing-filed-in>F</color-drawing-filed-in>
+	<color-drawing-current-in>F</color-drawing-current-in>
+	<drawing-3d-filed-in>F</drawing-3d-filed-in>
+	<drawing-3d-current-in>F</drawing-3d-current-in>
+	<standard-characters-claimed-in>F</standard-characters-claimed-in>
+	<filing-basis-filed-as-66a-in>F</filing-basis-filed-as-66a-in>
+	<filing-basis-current-66a-in>F</filing-basis-current-66a-in>
+	<renewal-date>20070514</renewal-date>
+	<current-location>SCANNING ON DEMAND</current-location>
+	<location-date>20080812</location-date>
+  </case-file-header>
+  <case-file-statements>
+	<case-file-statement>
+	  <type-code>GS0301</type-code>
+	  <text>EARTHENWARE AND PORCELAIN</text>
+	</case-file-statement>
+  </case-file-statements>
+  <case-file-event-statements>
+	<case-file-event-statement>
+	  <code>ASCK</code>
+	  <type>I</type>
+	  <description-text>ASSIGNMENT OF OWNERSHIP NOT UPDATED AUTOMATICALLY</description-text>
+	  <date>20150715</date>
+	  <number>21</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ARAA</code>
+	  <type>I</type>
+	  <description-text>ATTORNEY REVOKED AND/OR APPOINTED</description-text>
+	  <date>20100401</date>
+	  <number>20</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>REAP</code>
+	  <type>I</type>
+	  <description-text>TEAS REVOKE/APPOINT ATTORNEY RECEIVED</description-text>
+	  <date>20100401</date>
+	  <number>19</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ASCK</code>
+	  <type>I</type>
+	  <description-text>ASSIGNMENT OF OWNERSHIP NOT UPDATED AUTOMATICALLY</description-text>
+	  <date>20091104</date>
+	  <number>18</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ASCK</code>
+	  <type>I</type>
+	  <description-text>ASSIGNMENT OF OWNERSHIP NOT UPDATED AUTOMATICALLY</description-text>
+	  <date>20091028</date>
+	  <number>17</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ASCK</code>
+	  <type>I</type>
+	  <description-text>ASSIGNMENT OF OWNERSHIP NOT UPDATED AUTOMATICALLY</description-text>
+	  <date>20090513</date>
+	  <number>16</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ASCK</code>
+	  <type>I</type>
+	  <description-text>ASSIGNMENT OF OWNERSHIP NOT UPDATED AUTOMATICALLY</description-text>
+	  <date>20090422</date>
+	  <number>15</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ASGN</code>
+	  <type>I</type>
+	  <description-text>AUTOMATIC UPDATE OF ASSIGNMENT OF OWNERSHIP</description-text>
+	  <date>20090401</date>
+	  <number>14</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>CFIT</code>
+	  <type>O</type>
+	  <description-text>CASE FILE IN TICRS</description-text>
+	  <date>20080812</date>
+	  <number>13</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>RNL5</code>
+	  <type>Q</type>
+	  <description-text>REGISTERED AND RENEWED (FIFTH RENEWAL - 10 YRS)</description-text>
+	  <date>20070505</date>
+	  <number>12</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>89AG</code>
+	  <type>O</type>
+	  <description-text>REGISTERED - SEC. 8 (10-YR) ACCEPTED/SEC. 9 GRANTED</description-text>
+	  <date>20070505</date>
+	  <number>11</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>PLGL</code>
+	  <type>A</type>
+	  <description-text>ASSIGNED TO PARALEGAL</description-text>
+	  <date>20070503</date>
+	  <number>10</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>89AF</code>
+	  <type>I</type>
+	  <description-text>REGISTERED - COMBINED SECTION 8 (10-YR) &amp; SEC. 9 FILED</description-text>
+	  <date>20070404</date>
+	  <number>9</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>E89R</code>
+	  <type>I</type>
+	  <description-text>TEAS SECTION 8 &amp; 9 RECEIVED</description-text>
+	  <date>20070404</date>
+	  <number>8</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ASCK</code>
+	  <type>I</type>
+	  <description-text>ASSIGNMENT OF OWNERSHIP NOT UPDATED AUTOMATICALLY</description-text>
+	  <date>20060607</date>
+	  <number>7</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ASCK</code>
+	  <type>I</type>
+	  <description-text>ASSIGNMENT OF OWNERSHIP NOT UPDATED AUTOMATICALLY</description-text>
+	  <date>20060329</date>
+	  <number>6</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>ARAA</code>
+	  <type>I</type>
+	  <description-text>ATTORNEY REVOKED AND/OR APPOINTED</description-text>
+	  <date>20051028</date>
+	  <number>5</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>REAP</code>
+	  <type>I</type>
+	  <description-text>TEAS REVOKE/APPOINT ATTORNEY RECEIVED</description-text>
+	  <date>20051028</date>
+	  <number>4</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>REN4</code>
+	  <type>R</type>
+	  <description-text>REGISTERED AND RENEWED (FOURTH RENEWAL - 20 YRS)</description-text>
+	  <date>19870514</date>
+	  <number>3</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>9.AF</code>
+	  <type>I</type>
+	  <description-text>REGISTERED - SEC. 9 FILED/CHECK RECORD FOR SEC. 8</description-text>
+	  <date>19870306</date>
+	  <number>2</number>
+	</case-file-event-statement>
+	<case-file-event-statement>
+	  <code>REN3</code>
+	  <type>R</type>
+	  <description-text>REGISTERED AND RENEWED (THIRD RENEWAL - 20 YRS)</description-text>
+	  <date>19670514</date>
+	  <number>1</number>
+	</case-file-event-statement>
+  </case-file-event-statements>
+  <foreign-applications>
+	<foreign-application>
+	  <registration-date>18931118</registration-date>
+	  <entry-number>1</entry-number>
+	  <other>GB3</other>
+	  <registration-number>176512</registration-number>
+	  <foreign-priority-claim-in>F</foreign-priority-claim-in>
+	</foreign-application>
+  </foreign-applications>
+  <classifications>
+	<classification>
+	  <international-code-total-no>1</international-code-total-no>
+	  <us-code-total-no>1</us-code-total-no>
+	  <international-code>021</international-code>
+	  <us-code>030</us-code>
+	  <status-code>6</status-code>
+	  <status-date>19991102</status-date>
+	  <first-use-anywhere-date>18750704</first-use-anywhere-date>
+	  <first-use-in-commerce-date>18750704</first-use-in-commerce-date>
+	  <primary-code>030</primary-code>
+	</classification>
+  </classifications>
+  <correspondent>
+	<address-1>Maria A. Scungio, Esq.</address-1>
+	<address-2>EDWARDS ANGELL PALMER &amp; DODGE LLP</address-2>
+	<address-3>P.O. Box 130; F.D.R. Station</address-3>
+	<address-4>New York NY 10150</address-4>
+  </correspondent>
+  <case-file-owners>
+	<case-file-owner>
+	  <entry-number>1</entry-number>
+	  <party-type>43</party-type>
+	  <nationality>
+		<state>DE</state>
+	  </nationality>
+	  <legal-entity-type-code>16</legal-entity-type-code>
+	  <party-name>WWRD IPCO LLC</party-name>
+	  <address-1>2711 CENTERVILLE ROAD</address-1>
+	  <address-2>SUITE 400</address-2>
+	  <city>WILMINGTON</city>
+	  <state>DE</state>
+	  <postcode>19808</postcode>
+	</case-file-owner>
+	<case-file-owner>
+	  <entry-number>1</entry-number>
+	  <party-type>42</party-type>
+	  <nationality>
+		<other>GB3</other>
+	  </nationality>
+	  <legal-entity-type-code>03</legal-entity-type-code>
+	  <party-name>WEDGWOOD PUBLIC LIMITED COMPANY</party-name>
+	  <address-2>BARLASTON</address-2>
+	  <city>STOKE-ON-TRENT</city>
+	  <other>GB2</other>
+	  <name-change-explanation>NC42000001BY CHANGE OF NAME FROM</name-change-explanation>
+	</case-file-owner>
+	<case-file-owner>
+	  <entry-number>1</entry-number>
+	  <party-type>30</party-type>
+	  <nationality>
+		<other>GB2</other>
+	  </nationality>
+	  <legal-entity-type-code>03</legal-entity-type-code>
+	  <party-name>JOSIAH WEDGWOOD &amp; SONS LTD.</party-name>
+	  <city>ETRURIA, STOKE-UPON-TRENT</city>
+	  <other>GB2</other>
+	</case-file-owner>
+  </case-file-owners>
+  <design-searches>
+	<design-search>
+	  <code>190719</code>
+	</design-search>
+  </design-searches>
+</case-file>
